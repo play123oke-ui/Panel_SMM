@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Buat folder img
+mkdir -p panel/img
+
+# Buat file gambar logo.png
+convert -size 100x100 xc:white panel/img/logo.png
