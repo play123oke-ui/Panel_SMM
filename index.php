@@ -357,3 +357,24 @@ document.addEventListener('submit', (event) => {
   submitForm(form);
 });
   
+.success-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.error-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #f44336;
+  color: #fff;
+  border-radius: 5px;
+  z-index: 1000;
+}
