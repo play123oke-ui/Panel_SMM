@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Buat folder
 mkdir -p panel
 mkdir -p panel/css
